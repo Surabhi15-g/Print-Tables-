@@ -1,0 +1,5 @@
+c = 0
+n = int(input("Enter the Table you want"))
+for i in range(n,n*10+1,n):
+    c+=1
+    print(n, "x", c, "=", i)
